@@ -40,7 +40,7 @@ ul{
 
   .box1{
       height: 100%;
-      width: 30%;
+      width: 33%;
       align-items: center;
       background-image: url(images/witcher.jpg);
       background-size: cover;
@@ -52,7 +52,7 @@ ul{
 
   .box2{
     height: 100%;
-    width: 30%;
+    width: 33%;
     align-items: center;
     background-image: url(images/assasin.jpg);
     background-size: cover;
@@ -64,7 +64,7 @@ ul{
 
 .box3{
     height: 100%;
-    width: 30%;
+    width: 33%;
     align-items: center;
     background-image: url(images/heroes.jpg);
     background-size: cover;
@@ -76,12 +76,12 @@ ul{
 
 .text{
     height: 300px;
-    width: 100vh;
+    width: 90%;
     justify-content: center;
     border: 5px groove green;
     border-radius: 20px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 30px;
     text-align: left;
 }
