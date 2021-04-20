@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 950px;
+    width: 1350px;
+    margin: auto;
+    background-color: #F9F9F9;
+}
+
+.innerwrapper{
+    width: 1060px;
+    min-height: 950px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    box-shadow: 0px 0px 5px gray;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.header{
+    height: 100px;
+    font: 3em sans-serif;
+    padding: 60px 50px 10px 43px ;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    width: 91%;
+    background: #4D4C4C;
+    color: white;
+    margin: 30px auto;
+    font-weight: 500;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    margin-right: 43px;
+}
+.button1:hover{
+    background-color: #303030;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    margin-right: 43px;
+}
+
+.button2:hover{
+    background-color: #303030;
+}
+
+.button3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    margin-right: 43px;
+}
+
+.button3:hover{
+    background-color: #303030;
+}
+
+.button4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+}
+
+.button4:hover{
+    background-color: #303030;
+}
+
+.row{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 91%;
+    min-height: 620px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.sidebar{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 236px;
+}
+
+.sbar_b1{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 3px #E7E7E7;
+}
+
+.sbar_b1:hover{
+    transition: 1s;
+    margin-right: 40px;
+}
+
+.sbar_b2{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 3px #E7E7E7;
+}
+
+.sbar_b2:hover{
+    transition: 1s;
+    margin-right: 40px;
+}
+
+.sbar_b3{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 3px #E7E7E7;
+}
+
+.sbar_b3:hover{
+    transition: 1s;
+    margin-right: 40px;
+}
+
+.sbar_b4{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 3px #E7E7E7;
+}
+
+.sbar_b4:hover{
+    transition: 1s;
+    margin-right: 40px;
+}
+
+.sbar_b5{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 3px #E7E7E7;
+}
+
+.sbar_b5:hover{
+    transition: 1s;
+    margin-right: 40px;
+}
+
+.sbar_b6{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 3px #E7E7E7;
+}
+
+.sbar_b6:hover{
+    transition: 1s;
+    margin-right: 40px;
+}
+
+.content{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 725px;
+}
+
+.photo{
+    width: 675px;
+    height: 400px;
+    margin-left: 50px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 3px #E7E7E7;
+    background-image: url("images/2.png");
+    background-position: center center;
+}
+
+.description{
+    width: 675px;
+    height: min-content;
+    margin-left: 50px;
+    padding: 35px 25px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 91%;
+    background-color: #E1E1E1;
+    margin: 10px auto;
+}
+
+.fbutton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    margin-right: 43px;
+}
+.fbutton1:hover{
+    background-color: #CBCBCB;
+}
+
+.fbutton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    margin-right: 43px;
+}
+
+.fbutton2:hover{
+    background-color: #CBCBCB;
+}
+
+.fbutton3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    margin-right: 43px;
+}
+
+.fbutton3:hover{
+    background-color: #CBCBCB;
+}
+
+.fbutton4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+}
+
+.fbutton4:hover{
+    background-color: #CBCBCB;
+}
+
+.info{
+    font-size: 14px;
+    margin-left: 260px;
+}
