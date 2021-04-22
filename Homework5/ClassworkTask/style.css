@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 1440px;
+    height: 920px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box1{
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+}
+
+.box2{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.box3{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+}
+
+.box4{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.box5{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.box6{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.row4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+}
+
+.box7{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.box8{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.box9{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.box10{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1024px){
+    .box1{
+        width: 100%;
+        height: 14%;
+        border: 1px solid black;
+    }
+
+    .row2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 28%;
+    }
+
+    .box2{
+        width: 100%;
+        height: 50%;
+        border: 1px solid black;
+    }
+    
+    .box3{
+        width: 100%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .row3{
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 28%;
+    }
+
+    .box4{
+        width: 50%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .box5{
+        width: 50%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .box6{
+        width: 100%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .row4{
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 28%;
+    }
+
+    .box7{
+        width: 50%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .box8{
+        width: 50%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .box9{
+        width: 50%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .box10{
+        width: 50%;
+        height: 50%;
+        border: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .box1{
+        width: 100%;
+        height: 12%;
+        border: 1px solid black;
+    }
+
+    .row2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 24%;
+    }
+
+    .box2{
+        width: 100%;
+        height: 50%;
+        border: 1px solid black;
+    }
+    
+    .box3{
+        width: 100%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .row3{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        height: 36%;
+    }
+
+    .box4{
+        width: 100%;
+        height: 33.33%;
+        border: 1px solid black;
+    }
+
+    .box5{
+        width: 100%;
+        height: 33.33%;
+        border: 1px solid black;
+    }
+
+    .box6{
+        width: 100%;
+        height: 33.33%;
+        border: 1px solid black;
+    }
+
+    .row4{
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 24%;
+    }
+
+    .box7{
+        width: 33.33%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .box8{
+        width: 33.33%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .box9{
+        width: 33.33%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .box10{
+        width: 100%;
+        height: 50%;
+        border: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .box1{
+        width: 100%;
+        height: 10%;
+        border: 1px solid black;
+    }
+
+    .row2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20%;
+    }
+
+    .box2{
+        width: 100%;
+        height: 50%;
+        border: 1px solid black;
+    }
+    
+    .box3{
+        width: 100%;
+        height: 50%;
+        border: 1px solid black;
+    }
+
+    .row3{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        height: 30%;
+    }
+
+    .box4{
+        width: 100%;
+        height: 33.33%;
+        border: 1px solid black;
+    }
+
+    .box5{
+        width: 100%;
+        height: 33.33%;
+        border: 1px solid black;
+    }
+
+    .box6{
+        width: 100%;
+        height: 33.33%;
+        border: 1px solid black;
+    }
+
+    .row4{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        height: 40%;
+    }
+
+    .box7{
+        width: 100%;
+        height: 25%;
+        border: 1px solid black;
+    }
+
+    .box8{
+        width: 100%;
+        height: 25%;
+        border: 1px solid black;
+    }
+
+    .box9{
+        width: 100%;
+        height: 25%;
+        border: 1px solid black;
+    }
+
+    .box10{
+        width: 100%;
+        height: 25%;
+        border: 1px solid black;
+    }
+}
